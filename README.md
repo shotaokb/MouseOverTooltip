@@ -1,2 +1,33 @@
-# MouseOverTooltip
-Component for Google Data Studio (Data Portal)
+# GoogleDataStudio Mouseover Tooltip
+
+## Instructions
+
+### Step1 Download dscc.min.js to ./js
+https://developers.google.com/datastudio/visualization/library
+
+### Step2 Type following commands
+```bash
+$ cat js/dscc.min.js > mouseovertooltip.js
+$ echo >> mouseovertooltip.js
+$ cat js/icons.js >> mouseovertooltip.js
+$ cat js/tooltip.js >> mouseovertooltip.js
+$ cat js/main.js >> mouseovertooltip.js
+```
+or
+```bash
+$ cat js/dscc.min.js > mouseovertooltip.js && echo >> mouseovertooltip.js && cat js/icons.js >> mouseovertooltip.js && cat js/tooltip.js >> mouseovertooltip.js && cat js/main.js >> mouseovertooltip.js
+```
+
+### Step3 Push 4 files your gcs bucket
+1. manifest.json
+2. mouseovertooltip.js
+3. mouseovertooltip.json
+4. style.css
+
+## How to Use this Community Visualization on DataStudio
+
+### English
+Component ID: gs://community-viz-shotaokb/mouseovertooltip/en
+
+### Japanese
+Component ID: gs://community-viz-shotaokb/mouseovertooltip/ja

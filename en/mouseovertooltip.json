@@ -1,0 +1,98 @@
+{
+  "data": [{
+    "id": "setdummy",
+    "heading": "SetDummyData",
+    "elements": [{
+      "id": "dummydimension",
+      "label": "Set Dummy Dimension",
+      "type": "DIMENSION",
+      "options": {
+        "min": 1,
+        "max": 1,
+        "supportedTypes": ["DEFAULT"]
+      }
+    }, {
+      "id": "dummymetrics",
+      "label": "Set Dummy Metrics",
+      "type": "METRIC",
+      "options": {
+        "min": 1,
+        "max": 1
+      }
+    }]
+  }],
+  "style": [{
+    "id": "tooltipsetting",
+    "label": "Tooltip Setting",
+    "elements": [{
+      "id": "tooltiptext",
+      "label": "Text",
+      "type": "TEXTAREA"
+    },{
+    "id": "textfont",
+    "label": "Font",
+    "type": "FONT_FAMILY",
+    "defaultValue": "auto"
+    },{
+    "id": "textsize",
+    "label": "Text Size",
+    "type": "FONT_SIZE",
+    "defaultValue": "10px"
+    },{
+    "id": "textcolor",
+    "label": "Text Color",
+    "type": "FONT_COLOR",
+    "defaultValue": "#000000"
+    },{
+    "id": "bordercolor",
+    "label": "Border Color",
+    "type": "BORDER_COLOR",
+    "defaultValue": "#767676"
+    },{
+    "id": "borderwidth",
+    "label": "Border Width",
+    "type": "LINE_WEIGHT",
+    "defaultValue": "1"
+    },{
+    "id": "borderstyle",
+    "label": "Border Style",
+    "type": "LINE_STYLE",
+    "defaultValue": "solid"
+    },{
+    "id": "borderradius",
+    "label": "Border Radius",
+    "type": "BORDER_RADIUS",
+    "defaultValue": "0"
+    },{
+    "id": "backgroundcolor",
+    "label": "Background Color",
+    "type": "FILL_COLOR",
+    "defaultValue": "#ffffff"
+    }
+      ]
+  }, {
+    "id": "iconsetting",
+    "label": "Icon Setting",
+    "elements": [{
+      "id": "tooltipicon",
+      "label": "Select Icon",
+      "type": "SELECT_SINGLE",
+      "defaultValue": "0",
+      "options": [
+        {"label": "Information(i)", "value": 0},
+        {"label": "Question(?)", "value": 1},
+        {"label": "Light Bulb", "value": 2}
+      ]
+    },{
+      "id": "iconsize",
+      "label": "Icon Size",
+      "type": "TEXTINPUT",
+      "defaultValue": "100"
+    },{
+      "id": "iconcolor",
+      "label": "Icon Color",
+      "type": "BORDER_COLOR",
+      "defaultValue": "#ffffff"
+    }]
+  } ]
+}

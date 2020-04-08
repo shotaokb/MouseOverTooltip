@@ -1,0 +1,98 @@
+{
+  "data": [{
+    "id": "setdummy",
+    "heading": "SetDummyData",
+    "elements": [{
+      "id": "dummydimension",
+      "label": "ディメンション(Dummy)",
+      "type": "DIMENSION",
+      "options": {
+        "min": 1,
+        "max": 1,
+        "supportedTypes": ["DEFAULT"]
+      }
+    }, {
+      "id": "dummymetrics",
+      "label": "指標(Dummy)",
+      "type": "METRIC",
+      "options": {
+        "min": 1,
+        "max": 1
+      }
+    }]
+  }],
+  "style": [{
+    "id": "tooltipsetting",
+    "label": "ツールチップの設定",
+    "elements": [{
+      "id": "tooltiptext",
+      "label": "テキスト",
+      "type": "TEXTAREA"
+    },{
+    "id": "textfont",
+    "label": "フォント",
+    "type": "FONT_FAMILY",
+    "defaultValue": "auto"
+    },{
+    "id": "textsize",
+    "label": "テキストサイズ",
+    "type": "FONT_SIZE",
+    "defaultValue": "10px"
+    },{
+    "id": "textcolor",
+    "label": "文字色",
+    "type": "FONT_COLOR",
+    "defaultValue": "#000000"
+    },{
+    "id": "bordercolor",
+    "label": "ツールチップの枠の色",
+    "type": "BORDER_COLOR",
+    "defaultValue": "#767676"
+    },{
+    "id": "borderwidth",
+    "label": "ツールチップの枠の太さ",
+    "type": "LINE_WEIGHT",
+    "defaultValue": "1"
+    },{
+    "id": "borderstyle",
+    "label": "ツールチップの枠の種類",
+    "type": "LINE_STYLE",
+    "defaultValue": "solid"
+    },{
+    "id": "borderradius",
+    "label": "角を丸くする",
+    "type": "BORDER_RADIUS",
+    "defaultValue": "0"
+    },{
+    "id": "backgroundcolor",
+    "label": "ツールチップの背景色",
+    "type": "FILL_COLOR",
+    "defaultValue": "#ffffff"
+    }
+      ]
+  }, {
+    "id": "iconsetting",
+    "label": "アイコンの設定",
+    "elements": [{
+      "id": "tooltipicon",
+      "label": "アイコン",
+      "type": "SELECT_SINGLE",
+      "defaultValue": "0",
+      "options": [
+        {"label": "インフォメーション（i）マーク", "value": 0},
+        {"label": "クエスチョン（?）マーク", "value": 1},
+        {"label": "ひらめき電球", "value": 2}
+      ]
+    },{
+      "id": "iconsize",
+      "label": "サイズ",
+      "type": "TEXTINPUT",
+      "defaultValue": "100"
+    },{
+      "id": "iconcolor",
+      "label": "アイコンの色",
+      "type": "BORDER_COLOR",
+      "defaultValue": "#ffffff"
+    }]
+  } ]
+}

@@ -1,0 +1,11 @@
+/*rf. https://so-zou.jp/web-app/tech/programming/javascript/sample/tooltip.htm*/
+.tooltip-content {
+    position: relative;
+    left: -3px;
+    top: -3px;
+    padding: 3px;
+}
+
+.tooltip-shadow {
+    position: absolute;
+}
