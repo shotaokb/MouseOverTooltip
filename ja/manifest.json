@@ -1,17 +1,17 @@
 {
   "name": "MouseOver Tooltip",
   "logoUrl": "https://raw.githubusercontent.com/shotaokb/MouseOverTooltip/master/mouseover_tooltip_icon.jpg",
-  "organization": "Shota Okabe",
+  "organization": "岡部翔太(@shotaokb)",
   "organizationUrl": "https://note.com/shotaokb",
   "supportUrl": "https://twitter.com/shotaokb",
   "packageUrl": "TBA",
-  "description": "This is the component that will display its description when moused over.",
+  "description": "マウスオーバーするとツールチップが表示されます。",
   "devMode": true,
   "components": [{
     "id": "mouseovertooltip",
     "name": "MouseOver Tooltip",
     "iconUrl": "https://raw.githubusercontent.com/shotaokb/MouseOverTooltip/master/mouseover_tooltip_icon.jpg",
-    "description": "This is the component that will display its description when moused over.",
+    "description": "マウスオーバーするとツールチップが表示されます。",
     "resource": {
       "js": "gs://community-viz-shotaokb/mouseovertooltip/ja/mouseovertooltip.js",
       "config": "gs://community-viz-shotaokb/mouseovertooltip/ja/mouseovertooltip.json",
