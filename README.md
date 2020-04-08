@@ -1,5 +1,7 @@
 # GoogleDataStudio Mouseover Tooltip
 
+![Mouseover Tooltip Icon](https://raw.githubusercontent.com/shotaokb/MouseOverTooltip/master/mouseover_tooltip_icon.jpg)
+
 ## Instructions
 
 ### Step1 Download dscc.min.js to ./js
