@@ -6,7 +6,7 @@
   "supportUrl": "https://twitter.com/shotaokb",
   "packageUrl": "TBA",
   "description": "This is the component that will display its description when moused over.",
-  "devMode": true,
+  "devMode": false,
   "components": [{
     "id": "mouseovertooltip",
     "name": "MouseOver Tooltip",

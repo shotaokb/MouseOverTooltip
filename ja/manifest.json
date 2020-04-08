@@ -6,7 +6,7 @@
   "supportUrl": "https://twitter.com/shotaokb",
   "packageUrl": "TBA",
   "description": "マウスオーバーするとツールチップが表示されます。",
-  "devMode": true,
+  "devMode": false,
   "components": [{
     "id": "mouseovertooltip",
     "name": "MouseOver Tooltip",
