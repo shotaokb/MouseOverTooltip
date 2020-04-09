@@ -1,4 +1,4 @@
-//rf. https://so-zou.jp/web-app/tech/programming/javascript/sample/tooltip.htm
+//cf. https://so-zou.jp/web-app/tech/programming/javascript/sample/tooltip.htm
 const Tooltip = function(){
       //content
       this.content = document.createElement("div");
