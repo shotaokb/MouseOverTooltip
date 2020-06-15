@@ -36,8 +36,14 @@ function drawViz(data) {
 
   //icon color setting
   const tpclass = document.getElementsByClassName("iconstyle");
-  for(let i=0; i<tpclass.length; i++){
-    tpclass[i].setAttribute("style",`fill: ${st.iconColor}`);
+  if(st.iconColor){
+    for(let i=0; i<tpclass.length; i++){
+      tpclass[i].setAttribute("style",`fill: ${st.iconColor}`);
+    }
+  }else{
+    for(let i=0; i<tpclass.length; i++){
+      tpclass[i].setAttribute("style",`fill: ${data.theme.themeAccentFontColor.color}`);
+    }
   }
 }
 
