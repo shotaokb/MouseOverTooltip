@@ -2,24 +2,7 @@
   "data": [{
     "id": "setdummy",
     "heading": "SetDummyData",
-    "elements": [{
-      "id": "dummydimension",
-      "label": "Set Dummy Dimension",
-      "type": "DIMENSION",
-      "options": {
-        "min": 1,
-        "max": 1,
-        "supportedTypes": ["DEFAULT"]
-      }
-    }, {
-      "id": "dummymetrics",
-      "label": "Set Dummy Metrics",
-      "type": "METRIC",
-      "options": {
-        "min": 1,
-        "max": 1
-      }
-    }]
+    "elements": []
   }],
   "style": [{
     "id": "tooltipsetting",
@@ -91,8 +74,7 @@
     },{
       "id": "iconcolor",
       "label": "Icon Color",
-      "type": "BORDER_COLOR",
-      "defaultValue": "#ffffff"
+      "type": "BORDER_COLOR"
     }]
   } ]
 }

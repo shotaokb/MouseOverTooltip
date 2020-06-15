@@ -3,8 +3,10 @@
   "logoUrl": "https://raw.githubusercontent.com/shotaokb/MouseOverTooltip/master/mouseover_tooltip_icon.jpg",
   "organization": "岡部翔太(@shotaokb)",
   "organizationUrl": "https://note.com/shotaokb",
-  "supportUrl": "https://twitter.com/shotaokb",
-  "packageUrl": "TBA",
+  "supportUrl": "https://datastudio.google.com/reporting/b9596a2a-d10a-4916-a79b-c8ccb03c9138/page/5ThTB",
+  "packageUrl": "https://datastudio.google.com/reporting/b9596a2a-d10a-4916-a79b-c8ccb03c9138",
+  "privacyPolicyUrl": "https://datastudio.google.com/reporting/b9596a2a-d10a-4916-a79b-c8ccb03c9138/page/KKHTB",
+  "termsOfServiceUrl": "https://datastudio.google.com/reporting/b9596a2a-d10a-4916-a79b-c8ccb03c9138/page/K3YTB",
   "description": "マウスオーバーするとツールチップが表示されます。",
   "devMode": false,
   "components": [{
