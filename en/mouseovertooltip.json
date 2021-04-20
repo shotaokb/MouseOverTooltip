@@ -1,7 +1,7 @@
 {
   "data": [{
     "id": "setdummy",
-    "heading": "SetDummyData",
+    "label": "SetDummyData",
     "elements": []
   }],
   "style": [{
@@ -10,17 +10,18 @@
     "elements": [{
       "id": "tooltiptext",
       "label": "Text",
-      "type": "TEXTAREA"
+      "type": "TEXTAREA",
+      "defaultValue": "Input Tooltip Text"
     },{
     "id": "textfont",
     "label": "Font",
     "type": "FONT_FAMILY",
-    "defaultValue": "auto"
+    "defaultValue": "Arial"
     },{
     "id": "textsize",
     "label": "Text Size",
     "type": "FONT_SIZE",
-    "defaultValue": "10px"
+    "defaultValue": 10
     },{
     "id": "textcolor",
     "label": "Text Color",
@@ -35,7 +36,7 @@
     "id": "borderwidth",
     "label": "Border Width",
     "type": "LINE_WEIGHT",
-    "defaultValue": "1"
+    "defaultValue": 1
     },{
     "id": "borderstyle",
     "label": "Border Style",
@@ -45,7 +46,7 @@
     "id": "borderradius",
     "label": "Border Radius",
     "type": "BORDER_RADIUS",
-    "defaultValue": "0"
+    "defaultValue": 0
     },{
     "id": "backgroundcolor",
     "label": "Background Color",
@@ -62,9 +63,9 @@
       "type": "SELECT_SINGLE",
       "defaultValue": "0",
       "options": [
-        {"label": "Information(i)", "value": 0},
-        {"label": "Question(?)", "value": 1},
-        {"label": "Light Bulb", "value": 2}
+        {"label": "Information(i)", "value": "0"},
+        {"label": "Question(?)", "value": "1"},
+        {"label": "Light Bulb", "value": "2"}
       ]
     },{
       "id": "iconsize",

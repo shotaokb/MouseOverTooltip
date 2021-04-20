@@ -1,7 +1,7 @@
 {
   "data": [{
     "id": "setdummy",
-    "heading": "SetDummyData",
+    "label": "SetDummyData",
     "elements": []
   }],
   "style": [{
@@ -10,17 +10,18 @@
     "elements": [{
       "id": "tooltiptext",
       "label": "テキスト",
-      "type": "TEXTAREA"
+      "type": "TEXTAREA",
+      "defaultValue": "Tooltipに設定する文章を入力"
     },{
     "id": "textfont",
     "label": "フォント",
     "type": "FONT_FAMILY",
-    "defaultValue": "auto"
+    "defaultValue": "Arial"
     },{
     "id": "textsize",
     "label": "テキストサイズ",
     "type": "FONT_SIZE",
-    "defaultValue": "10px"
+    "defaultValue": 10
     },{
     "id": "textcolor",
     "label": "文字色",
@@ -35,7 +36,7 @@
     "id": "borderwidth",
     "label": "ツールチップの枠の太さ",
     "type": "LINE_WEIGHT",
-    "defaultValue": "1"
+    "defaultValue": 1
     },{
     "id": "borderstyle",
     "label": "ツールチップの枠の種類",
@@ -45,7 +46,7 @@
     "id": "borderradius",
     "label": "角を丸くする",
     "type": "BORDER_RADIUS",
-    "defaultValue": "0"
+    "defaultValue": 0
     },{
     "id": "backgroundcolor",
     "label": "ツールチップの背景色",
@@ -62,9 +63,9 @@
       "type": "SELECT_SINGLE",
       "defaultValue": "0",
       "options": [
-        {"label": "インフォメーション（i）マーク", "value": 0},
-        {"label": "クエスチョン（?）マーク", "value": 1},
-        {"label": "ひらめき電球", "value": 2}
+        {"label": "インフォメーション（i）マーク", "value": "0"},
+        {"label": "クエスチョン（?）マーク", "value": "1"},
+        {"label": "ひらめき電球", "value": "2"}
       ]
     },{
       "id": "iconsize",
