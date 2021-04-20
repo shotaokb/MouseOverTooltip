@@ -12,7 +12,7 @@ function drawViz(data) {
     borderStyle: data.style.borderstyle.value || data.style.borderstyle.defaultValue,
     borderRadius: data.style.borderradius.value || data.style.borderradius.defaultValue,
     iconSize: data.style.iconsize.value || data.style.iconsize.defaultValue,
-    iconColor: data.style.iconcolor.value.color || data.style.iconcolor.defaultValue,
+    iconColor: data.style.iconcolor.value.color /*|| data.style.iconcolor.defaultValue*/,
     backgroundColor: data.style.backgroundcolor.value.color || data.style.backgroundcolor.defaultValue,
     tooltipIcon: data.style.tooltipicon.value || data.style.tooltipicon.defaultValue,
     tooltipText: data.style.tooltiptext.value || data.style.tooltiptext.defaultValue,
