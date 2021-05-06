@@ -4,21 +4,27 @@ function drawViz(data) {
   const divIcon = document.getElementById("iconDiv");
 
   const st = {
-    textColor: data.style.textcolor.value.color,
-    borderColor: data.style.bordercolor.value.color,
-    textFont: data.style.textfont.value,
-    textSize: data.style.textsize.value,
-    borderWidth: data.style.borderwidth.value,
-    borderStyle: data.style.borderstyle.value,
-    borderRadius: data.style.borderradius.value,
-    iconSize: data.style.iconsize.value,
-    iconColor: data.style.iconcolor.value.color,
-    backgroundColor: data.style.backgroundcolor.value.color,
-    tooltipIcon: data.style.tooltipicon.value,
-    tooltipText: data.style.tooltiptext.value,
+    textColor: data.style.textcolor.value.color || data.style.textcolor.defaultValue,
+    borderColor: data.style.bordercolor.value.color || data.style.bordercolor.defaultValue,
+    textFont: data.style.textfont.value || data.style.textfont.defaultValue,
+    textSize: data.style.textsize.value || data.style.textsize.defaultValue ,
+    borderWidth: data.style.borderwidth.value || data.style.borderwidth.defaultValue,
+    borderStyle: data.style.borderstyle.value || data.style.borderstyle.defaultValue,
+    borderRadius: data.style.borderradius.value || data.style.borderradius.defaultValue,
+    iconSize: data.style.iconsize.value || data.style.iconsize.defaultValue,
+    iconColor: data.style.iconcolor.value.color /*|| data.style.iconcolor.defaultValue*/,
+    backgroundColor: data.style.backgroundcolor.value.color || data.style.backgroundcolor.defaultValue,
+    tooltipIcon: data.style.tooltipicon.value || data.style.tooltipicon.defaultValue,
+    tooltipText: data.style.tooltiptext.value || data.style.tooltiptext.defaultValue,
   };
 
   //change icon
+  switch(st.tooltipIcon){
+    case "0": divIcon.innerHTML = svgIcons[0]; break;
+    case "1": divIcon.innerHTML = svgIcons[1]; break;
+    case "2": divIcon.innerHTML = svgIcons[2]; break;
+    default: divIcon.innerHTML = svgIcons[0];
+  }
   divIcon.innerHTML = svgIcons[st.tooltipIcon];
 
   //append style
