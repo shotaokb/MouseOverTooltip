@@ -32,10 +32,10 @@ $ cat js/dscc.min.js > mouseovertooltip.js && echo >> mouseovertooltip.js && cat
 Component ID: gs://community-viz-shotaokb/mouseovertooltip/en
 
 ### Japanese
-Component ID: gs://community-viz-shotaokb/mouseovertooltip/ja
+Component ID: gs://community-viz-shotaokb/mouseovertooltip/ja  
 
 
 ## How to use branches in Github
-master: This is the version we offer on Google Data Studio.
-prod: This is a test version of the latest features under development and available in the [DEV]MouseOverTooltip.
-develop: This is a version under development.
+master: This is the version we offer on Google Data Studio.  
+prod: This is a test version of the latest features under development and available in the [DEV]MouseOverTooltip.  
+develop: This is a version under development.  
