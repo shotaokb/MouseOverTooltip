@@ -2,7 +2,15 @@
   "data": [{
     "id": "setdummy",
     "label": "SetDummyData",
-    "elements": []
+    "elements": [{
+      "type": "DIMENSION",
+      "id": "dummydimension",
+      "label": "Set Dummy Dimension",
+      "options": {
+        "min": 1,
+        "max": 1
+      }
+    }]
   }],
   "style": [{
     "id": "tooltipsetting",
